@@ -1,0 +1,112 @@
+.mintButton{
+  position: fixed;
+  top: 15%;
+  left: calc(50% - 200px);
+  padding: 8px 24px;
+  width: 14%;
+  height: 15%;
+  opacity: 0;
+  z-index: 9999;
+}
+.content{
+  z-index: 9999;
+  position: fixed;
+  top: calc(50% - 310px);
+  left: calc(20% - 150px);
+  height: auto;
+  background-color: black;
+  border-radius: 8px;
+  border: 3px solid white;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  -webkit-animation: fadeleftIn .4s;
+  animation: fadeleftIn .4s;
+}
+.contentDel{
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+.contentTitle{
+  font-family:fantasy;
+  font-size: 2.5rem;
+  color: #fff;
+  padding: 2rem 0 0 0;
+}
+.contentLogo{
+  height: 145px;
+  height: 145px;
+}
+.contentInput{
+  border-radius: 1em;
+  border: solid 2px gray;
+  margin-left: 1em;
+  color: black;
+  height: 2em;
+  width: 2em;
+  text-align: center;
+  font-size: 1.1em;
+}
+.contentText{
+  width: 80%;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 8px;
+}
+.contentMax{
+  display: flex;
+  align-items: center;
+  padding: 1.2rem 0;
+}
+.mintBtn{
+  margin: 1rem 0;
+  height: 13%;
+  width: 60%;
+  overflow: hidden;
+  
+}
+.contentCount{
+  padding-left: 8px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.contentMax{
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+/* .contentText{
+  font-size: 16px;
+  color: #fff;
+} */
+@keyframes fadeleftIn {
+  0% {
+      -webkit-transform: translate3d(100%, 0, 0);
+      -webkit-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+  }
+  100% {
+      -webkit-transform: none;
+      transform: none;
+  }
+}
+
+@-webkit-keyframes fadeleftIn {
+  0% {
+      -webkit-transform: translate3d(100%, 0, 0);
+  }
+  100% {
+      -webkit-transform: none;
+  }
+
+}

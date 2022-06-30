@@ -1,0 +1,25 @@
+header{
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 20px;
+  left: 0;
+  opacity: 0.8;
+  width: 100%;
+  /* height: 44px;  */
+}
+.headerWidth{
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logoLeft{
+  width: 145px;
+  height: 145px;
+  padding-left: 100px;
+  /* background-color: #fff; */
+}
+/* .buttonRight{
+
+} */
